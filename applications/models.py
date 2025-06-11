@@ -25,5 +25,5 @@ class Application(models.Model):
     class Meta:
         verbose_name = "Application"
         verbose_name_plural = "Applications"
-        ordering = ['name']
+        ordering = ['submitted at', 'status']
 
